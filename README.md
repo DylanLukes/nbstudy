@@ -1,5 +1,6 @@
 # nb_study_tools
 
+[![Test CI](https://github.com/DylanLukes/nb-study-tools/actions/workflows/test.yml/badge.svg)](https://github.com/DylanLukes/nb-study-tools/actions/workflows/test.yml)
 [![PyPI - Version](https://img.shields.io/pypi/v/nb-study-tools.svg)](https://pypi.org/project/nb-study-tools)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb-study-tools.svg)](https://pypi.org/project/nb-study-tools)
 
@@ -14,6 +15,12 @@
 
 ```console
 pip install nb-study-tools
+```
+
+## Installation (Local)
+
+```console
+hatch 
 ```
 
 ## License

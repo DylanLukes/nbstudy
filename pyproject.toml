@@ -20,12 +20,15 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  "click",
+  "requests"
+]
 
 [project.urls]
-Documentation = "https://github.com/unknown/nb-study-tools#readme"
-Issues = "https://github.com/unknown/nb-study-tools/issues"
-Source = "https://github.com/unknown/nb-study-tools"
+Documentation = "https://github.com/DylanLukes/nb-study-tools#readme"
+Issues = "https://github.com/DylanLukes/nb-study-tools/issues"
+Source = "https://github.com/DylanLukes/nb-study-tools"
 
 [tool.hatch.version]
 path = "src/nb_study_tools/__about__.py"
