@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "nb-study-tools"
+name = "nbstudy"
 dynamic = ["version"]
 description = 'Tools for studying notebooks'
 readme = "README.md"
@@ -26,15 +26,15 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/DylanLukes/nb-study-tools#readme"
-Issues = "https://github.com/DylanLukes/nb-study-tools/issues"
-Source = "https://github.com/DylanLukes/nb-study-tools"
+Documentation = "https://github.com/DylanLukes/nbstudy#readme"
+Issues = "https://github.com/DylanLukes/nbstudy/issues"
+Source = "https://github.com/DylanLukes/nbstudy"
 
 [project.scripts]
-nbstudy = "nb_study_tools.cli:cli"
+nbstudy = "nbstudy.cli:cli"
 
 [tool.hatch.version]
-path = "src/nb_study_tools/__about__.py"
+path = "src/nbstudy/__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = [
@@ -61,19 +61,19 @@ dependencies = [
   "mypy>=1.0.0",
 ]
 [tool.hatch.envs.types.scripts]
-check = "mypy --install-types --non-interactive {args:src/nb_study_tools tests}"
+check = "mypy --install-types --non-interactive {args:src/nbstudy tests}"
 
 [tool.coverage.run]
-source_pkgs = ["nb_study_tools", "tests"]
+source_pkgs = ["nbstudy", "tests"]
 branch = true
 parallel = true
 omit = [
-  "src/nb_study_tools/__about__.py",
+  "src/nbstudy/__about__.py",
 ]
 
 [tool.coverage.paths]
-nb_study_tools = ["src/nb_study_tools", "*/nb-study-tools/src/nb_study_tools"]
-tests = ["tests", "*/nb-study-tools/tests"]
+nbstudy = ["src/nbstudy", "*/nbstudy/src/nbstudy"]
+tests = ["tests", "*/nbstudy/tests"]
 
 [tool.coverage.report]
 exclude_lines = [

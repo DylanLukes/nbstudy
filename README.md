@@ -1,8 +1,8 @@
-# nb_study_tools
+# nbstudy - tools for studying notebooks
 
-[![CI Testing](https://github.com/DylanLukes/nb-study-tools/actions/workflows/test.yml/badge.svg)](https://github.com/DylanLukes/nb-study-tools/actions/workflows/test.yml)
-[![PyPI - Version](https://img.shields.io/pypi/v/nb-study-tools.svg)](https://pypi.org/project/nb-study-tools)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb-study-tools.svg)](https://pypi.org/project/nb-study-tools)
+[![CI Testing](https://github.com/DylanLukes/nbstudy/actions/workflows/test.yml/badge.svg)](https://github.com/DylanLukes/nb-study-tools/actions/workflows/test.yml)
+[![PyPI - Version](https://img.shields.io/pypi/v/nb-study-tools.svg)](https://pypi.org/project/nbstudy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb-study-tools.svg)](https://pypi.org/project/nbstudy)
 
 -----
 
@@ -13,16 +13,22 @@
 
 ## Installation
 
+From anywhere:
+
 ```console
-pip install nb-study-tools
+pip install nbstudy
+nbstudy -h
 ```
 
-## Installation (Local)
+## Installation (Development)
+
+From inside a clone of this repository:
 
 ```console
-hatch 
+hatch shell
+nbstudy -h
 ```
 
 ## License
 
-`nb-study-tools` is distributed under the terms of the [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) license.
+`nbstudy` is distributed under the terms of the [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) license.
