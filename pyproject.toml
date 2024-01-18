@@ -30,6 +30,9 @@ Documentation = "https://github.com/DylanLukes/nb-study-tools#readme"
 Issues = "https://github.com/DylanLukes/nb-study-tools/issues"
 Source = "https://github.com/DylanLukes/nb-study-tools"
 
+[project.scripts]
+nbstudy = "nb_study_tools.cli:cli"
+
 [tool.hatch.version]
 path = "src/nb_study_tools/__about__.py"
 
