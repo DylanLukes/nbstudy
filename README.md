@@ -1,8 +1,8 @@
 # nbstudy - tools for studying notebooks
 
 [![CI Testing](https://github.com/DylanLukes/nbstudy/actions/workflows/test.yml/badge.svg)](https://github.com/DylanLukes/nb-study-tools/actions/workflows/test.yml)
-[![PyPI - Version](https://img.shields.io/pypi/v/nb-study-tools.svg)](https://pypi.org/project/nbstudy)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nb-study-tools.svg)](https://pypi.org/project/nbstudy)
+[![PyPI - Version](https://img.shields.io/pypi/v/nbstudy.svg)](https://pypi.org/project/nbstudy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nbstudy.svg)](https://pypi.org/project/nbstudy)
 
 -----
 
