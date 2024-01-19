@@ -14,7 +14,7 @@ authors = [
   { name = "Dylan Lukes", email = "lukes.dylan@gmail.com" },
 ]
 classifiers = [
-  "Development Status :: 4 - Beta",
+  "Development Status :: 3 - Alpha",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: Implementation :: CPython",
@@ -27,6 +27,7 @@ dependencies = [
   "nbformat",
   "pydantic",
   "pydantic-settings",
+  "pygithub",
   "requests",
 ]
 
@@ -36,7 +37,7 @@ Issues = "https://github.com/DylanLukes/nbstudy/issues"
 Source = "https://github.com/DylanLukes/nbstudy"
 
 [project.scripts]
-nbstudy = "nbstudy.cli:main"
+nbstudy = "nbstudy.cli:cli"
 
 [tool.hatch.version]
 path = "src/nbstudy/__about__.py"

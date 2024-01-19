@@ -31,6 +31,10 @@ in the wild.**
 > not yet feature-complete. Many features are still missing (have not been cleaned up and copied
 > over from existing code used priorly for publications), and the documentation is incomplete.
 
+Functionality:
+ - [ ] Workspace
+ - [ ] GitHub
+
 ## Requirements
 
 `nbstudy` requires Python 3.12 or later, and a recent version of Git 2.43 with support for 
