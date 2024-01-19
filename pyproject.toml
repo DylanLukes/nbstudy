@@ -22,7 +22,12 @@ classifiers = [
 ]
 dependencies = [
   "click",
-  "requests"
+  "gitpython",
+  "loguru",
+  "nbformat",
+  "pydantic",
+  "pydantic-settings",
+  "requests",
 ]
 
 [project.urls]
@@ -31,7 +36,7 @@ Issues = "https://github.com/DylanLukes/nbstudy/issues"
 Source = "https://github.com/DylanLukes/nbstudy"
 
 [project.scripts]
-nbstudy = "nbstudy.cli:cli"
+nbstudy = "nbstudy.cli:main"
 
 [tool.hatch.version]
 path = "src/nbstudy/__about__.py"
@@ -58,10 +63,11 @@ python = ["3.12"]
 
 [tool.hatch.envs.types]
 dependencies = [
-  "mypy>=1.0.0",
+  "pyright",
 ]
 [tool.hatch.envs.types.scripts]
-check = "mypy --install-types --non-interactive {args:src/nbstudy tests}"
+check = "pyright {args:src/nbstudy tests}"
+#check = "mypy --install-types --non-interactive {args:src/nbstudy tests}"
 
 [tool.coverage.run]
 source_pkgs = ["nbstudy", "tests"]
